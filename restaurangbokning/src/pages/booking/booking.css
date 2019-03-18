@@ -1,0 +1,13 @@
+.booking-content {
+    background-image: url('../.././images/bookingpage@1900px.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 67px);
+    overflow: hidden;
+  }
+  @media screen and (min-width: 780px) {
+    .booking-content{
+      height: calc(100vh - 50px);
+    }
+  }

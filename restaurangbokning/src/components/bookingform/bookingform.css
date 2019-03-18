@@ -1,0 +1,106 @@
+input#gdpr {
+    float: left;
+    width: 20px;
+    margin: 2px 5px;
+}
+
+.guest-label{
+  float: left;
+  margin: 3px 0px;
+}
+
+select#numberOfGuests{
+  margin: 1px 15px;
+  width: 40px;
+}
+/*-----------------------------
+           WRAPS
+-------------------------------*/
+.inner-wrap {
+    /* font-family: 'Special Elite', cursive; */
+    font-family: 'Fira Mono', monospace;
+    text-align: center;
+    margin: 0 auto;
+    width: 84%;
+}
+
+.dateLabel {
+    margin-right: 16px;
+}
+
+.feedback-wrap {
+    background-color: #f3f3f3;
+}
+
+.booking-container{
+    margin: auto;
+    margin-top: 8%;
+    background: rgba(255,255,255,0.90);
+    max-width: 480px;
+    height: 560px;
+    border-radius: 2px;
+}
+
+/*-----------------------------
+           FORMS
+-------------------------------*/
+
+.secondary-background {
+    background-color: #fff;
+    padding: 24px 0;
+}
+
+.secondary-background li {
+    list-style-type: none;
+}
+
+.customer-form {
+    text-align: left;
+}
+
+.customer-field {
+    font-size: 0.8em;
+    background: transparent;
+    width: 100%;
+    margin: 16px 0;
+    padding-bottom: 8px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #B7B7B7;
+}
+
+input::placeholder {
+    /* font-family: 'Special Elite', cursive; */
+    font-family: 'Fira Mono', monospace;
+}
+
+
+/*-----------------------------
+           ERROR MESSAGE
+-------------------------------*/
+.errorMsg {
+    color: red;
+    font-size: 11px;
+}
+/*-----------------------------
+           DATE PICKER
+-------------------------------*/
+.search-date {
+    font-size: 1em;
+    background: #f3f3f3;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+::-webkit-inner-spin-button {
+    display: none;
+}
+
+::-webkit-datetime-edit-text {
+    padding: 0 0.3em;
+}
+
+::-webkit-calendar-picker-indicator {
+    font-size: 1.5em;
+}
